@@ -1,7 +1,7 @@
 import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-MESSAGE = "Shipped automatically by GitHub Actions!"
+MESSAGE = "Shipped again via CI!"
 
 
 class Handler(BaseHTTPRequestHandler):
